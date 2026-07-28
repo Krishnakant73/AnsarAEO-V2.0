@@ -77,10 +77,7 @@ bash.exe.stackdump
 # Documentation and planning files
 *.md
 !README.md
-!docs/*.md
-!docs/**/*.md
-!prompts/*.md
-!src/**/*.md
+!CLAUDE.md
 
 # Misc
 *.pem
