@@ -1,0 +1,21 @@
+{
+  "name": "ansaraeo-agent",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Terminal agent for AnsarAEO built on OpenRouter (@openrouter/agent).",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@openrouter/agent": "^0.8.0",
+    "@openrouter/sdk": "^0.13.67",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
