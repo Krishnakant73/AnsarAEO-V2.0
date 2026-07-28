@@ -5,6 +5,7 @@ import SmoothScroll from "@/components/layout/SmoothScroll";
 import CookieConsent from "@/components/shared/CookieConsent";
 import { AppProviders } from "@/app/providers";
 import { GoogleTagsHead, GtmNoscript } from "@/components/analytics/GoogleTags";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { cn } from "@/lib/utils";
 
 const geistMono = Geist_Mono({subsets:['latin'],variable:'--font-mono'});
@@ -90,6 +91,7 @@ export default function RootLayout({
           <SmoothScroll>{children}</SmoothScroll>
           <CookieConsent />
         </AppProviders>
+        <SpeedInsights />
       </body>
     </html>
   );
